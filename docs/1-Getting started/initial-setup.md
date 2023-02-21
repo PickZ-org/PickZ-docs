@@ -37,4 +37,4 @@ You can add new products later on the fly while receiving
 
 ## Contacts
 
-Contacts can be either suppliers (inbound) or customers (outbound), PickZ currently makes no distinction between these two, add your clients and suppliers so we can add some orders for them!
+Contacts can be either suppliers (inbound) or customers (outbound), PickZ currently makes no distinction between these two, add your clients and suppliers so we can create some orders for them!
