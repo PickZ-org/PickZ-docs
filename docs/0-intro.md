@@ -6,7 +6,7 @@ title: Introduction
 
 ![PickZ logo](/img/logo_small.png)
 
-PickZ is a warehouse management system built for small to medium-sized operations. It helps warehouses keep tidy clean, all while (striving to) being a delight to work with!
+PickZ is a warehouse management system built for small to medium-sized operations. It helps warehouses keep tidy and clean, all while (striving to) being a delight to work with!
 
 ## Features
 

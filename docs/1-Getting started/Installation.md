@@ -46,6 +46,12 @@ php artisan migrate --force
 php artisan db:seed --force
 ```
 
+Finally, don't forget to add a cron entry to your server for scheduled tasks.
+
+```bash
+* * * * * cd /path-to-PickZ && php artisan schedule:run >> /dev/null 2>&1
+```
+
 PickZ should now be ready to run!
 
 :::caution
