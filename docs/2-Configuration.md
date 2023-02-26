@@ -12,16 +12,16 @@ You can adjust the PickZ workflow according to your needs.
 
 Enabling this skips the replenishment and ignores pick locations, so items will be picked directly from your bulk locations.
 
-#### Skip staging location
+#### Skip staging locations
 
 Enabling this skips the staging locations, so items will be picked directly to the outbound dock (either from bulk or pick locations, depending on the setting above).
 
 #### Manual putaway
 
-Manual putaway disables the automatic location allocation and gives the user a choice where to store your products upon receiving them.
+Manual putaway disables the automatic location allocation and gives the user a choice where to store their products upon receiving them.
 
 :::info
-The location for automatic putaway will be allocated based on whether there is a location available with the same product stored, or else if there are empty bulk locations available.
+The location for automatic putaway will be allocated based on whether there is a location available with the same product stored, or if there are empty bulk locations available.
 More advanced putaway rules are available through fixed locations.
 :::
 
@@ -29,41 +29,41 @@ More advanced putaway rules are available through fixed locations.
 
 Enable this if you don't want PickZ to generate order numbers automatically for new orders.
 
-#### Consolidate outbound crossdock orders
+#### Consolidate outbound cross-dock orders
 
-When this is enabled, crossdock (orders that go straight from the inbound dock to the outbound dock) orders for the same contact will be consolidated into one outbound order
+When this is enabled, cross-dock (orders that go straight from the inbound dock to the outbound dock) orders for the same contact will be consolidated into one outbound order
 
 #### FEFO picking
 
-This is activate the FEFO picking strategy, meaning units with closer expiry dates will be selected first to be picked.
+This activates the FEFO picking strategy, meaning units with closer expiry dates will be selected first to be picked.
 
 :::info
-Expiry dates can be enabled through stock groups/
+Expiry dates can be enabled through stock groups
 :::
 
 ## Setting up automations
 
 `Configuration` > `Automation`
 
-By default, every step in the PickZ process will be started automatically, if you would like to manually start certain processes (like *picking* or *replenishment*), you can enable any automations through `Configuration` > `Automation`.
+By default, every step in the PickZ process will be started automatically, if you would like to manually start certain processes (like *picking* or *replenishment*), you can enable or disable specific automations through `Configuration` > `Automation`.
 
 ## Stock groups & stock group types
 
 `Configuration` > `Stock`
 
-PickZ uses stock group types to divide or bind any kind of stock, based on a set of rules. Different rules and settings can be set for each stock group type. For example, pallets are a physical group type, which means they physically bind stock together, and can only be at one location at a time. Batches, or lots, are a non-physical group type, since they aren't physically bound together (products on different locations can belong to the same batch). When editing or adding stock group types, there are a couple available options:
+PickZ uses stock group types to divide and bind any kind of stock, based on a set of rules. Different rules and settings can be configured for each stock group type. For example, pallets are a physical group type, which means they physically bind stock together, and can only be at one location at a time. Batches, or lots, are a non-physical group type, since they aren't physically bound together (products on different locations can belong to the same batch). When editing or adding stock group types, there are a couple available options:
 
 `Name` This is the internal name to recognize the group type.
 
-`Enabled` Whether the group type should be used or not.
+`Enabled` Indicates if the group type should be used or not.
 
-`Required` Whether the group type is required, and thus all products have to belong to one of these stock groups.
+`Required` Indicates if the group type is required, and thus all products have to belong to one of these stock groups.
 
-`Physical` Whether a stock group is a physical entity (for example a pallet or cart), so products are physically bound together on this stock group, and the group itself can only be at one location at a time.
+`Physical` Indicates if a stock group is a physical entity (for example a pallet or cart), so products are physically bound together on this stock group, and the group itself can only be at one location at a time.
 
-`Expires` Whether the group type has an expiry date.
+`Expires` Indicates if the group type has an expiry date.
 
-`Specifiable` Whether the group type should be able to be specified on outbound orders (for example, being able to send specific pallets to clients, instead of letting PickZ choose the best option).
+`Specifiable` Indicates if the group type should be able to be specified on outbound orders (for example, being able to send specific pallets to clients, instead of letting PickZ choose the best option).
 
 `ID name` Name of the group type ID, (pallet ID, batch ID, client name, client group).
 
@@ -73,17 +73,17 @@ PickZ uses stock group types to divide or bind any kind of stock, based on a set
 
 `Final location type` The last location type stock should be bound to groups (for example, in some situations pallets are never moved into staging locations, so the allocation should be removed during picking).
 
-You can create unlimited amounts of group types, so stock and products can be classified in endless amount of ways.
+You can create unlimited amounts of group types, so stock and products can be classified in an infinite number of ways.
 
 :::info
-PickZ has added 2 often used stock group types by default (pallets and batches), which you can use just by enabling them
+PickZ has added 2 commonly used stock group types by default (pallets and batches), which you can use just by enabling them
 :::
 
 ## Invoicing
 
 `Configuration` > `Invoicing`
 
-PickZ can generate invoices based on quantities sent to the client, or based on the amount of time a product has been in your warehouse by the time it is shipped away. The first type of invoice will be directed to the receiving party, and the latter will be directed to the product owner(s) of the products shipped.
+PickZ can generate invoices based on quantities sent to the client, or based on the amount of time a product has been in your warehouse at the time of shipment. The first type of invoice will be directed to the receiving party, and the latter will be directed to the product's owner of the products shipped.
 
 `Enable invoicing` This enables / disabled the entire invoicing module.
 

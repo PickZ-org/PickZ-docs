@@ -6,7 +6,9 @@ title: Introduction
 
 ![PickZ logo](/img/logo_small.png)
 
-PickZ is a warehouse management system built for small to medium-sized operations. It helps warehouses keep tidy and clean, all while (striving to) being a delight to work with!
+Welcome to PickZ, a comprehensive warehouse management system designed to streamline your inventory management processes. With PickZ, you can easily receive stock, manage replenishment, pick orders, and ship products with ease. PickZ also offers flexible invoicing options to help you streamline your billing processes. You can invoice clients based on the amount of product sent or the amount of time the product has been in the warehouse. Another key feature of PickZ is its ability to work with different units of measurement for products. This means that when picking orders, the system can calculate how many units of a product need to be unpacked based on the order quantity and the unit of measurement for that product.
+
+Thank you for choosing PickZ as your warehouse management system. We hope this user manual provides you with all the information you need to get started. If you have any further questions, please do not hesitate to contact us.
 
 ## Features
 
