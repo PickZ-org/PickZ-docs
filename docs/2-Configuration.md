@@ -109,7 +109,7 @@ All labels are generated and streamed as PDF files which you can print from your
 Enabling Zebra printing without the required hardware might cause errrors
 :::
 
- `Zebra stock label` The template used by PickZ to send to the printer, this can be filled with dynamic variables which are generated during printing.
+`Zebra stock label` The template used by PickZ to send to the printer, this can be filled with dynamic variables which are generated during printing.
 
 
 
