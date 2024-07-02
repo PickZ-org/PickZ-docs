@@ -65,7 +65,8 @@ const config = {
                 items: [
                     {
                         href: 'https://github.com/sjhand/PickZ',
-                        label: 'GitHub',
+                        className: 'header-github-link fa fa-github',
+                        'aria-label': 'GitHub repository',
                         position: 'right',
                     },
                 ],
@@ -75,25 +76,18 @@ const config = {
                 disableSwitch: false,
                 respectPrefersColorScheme: false,
             },
+            
             footer: {
-                style: 'dark',
+                /* style: 'dark',
                 links: [
                     {
                         title: 'Links',
-                        items: [
-                            {
-                                label: 'PickZ',
-                                href: 'https://www.pickz.org',
-                            },
-                            {
-                                label: 'GitHub',
-                                href: 'https://github.com/sjhand/PickZ',
-                            },
-                        ],
+                        items: [ ],
                     },
-                ],
+                ],*/
                 copyright: `Copyright © ${new Date().getFullYear()} PickZ.org. Built with Docusaurus.`,
             },
+            
             prism: {
                 theme: lightCodeTheme,
                 darkTheme: darkCodeTheme,
