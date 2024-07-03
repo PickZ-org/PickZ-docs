@@ -9,17 +9,17 @@ After installing PickZ for the first time, you will have a mostly empty environm
 
 Locations are needed to store products. Each location should represent a physical area in the warehouse, so PickZ knows where to store the items. There are several types of locations:
 
-#### Bulk locations
+* **Bulk locations**
 These are locations for bulk storage, large spaces where you store your incoming orders (putaway) and from where you replenish your pick locations.
 
-#### Pick locations
+* **Pick locations**
 These are usually smaller locations, used for order picking.
 
-#### Staging locations
+* **Staging locations**
 Locations where products are packed, unpacked, assembled, checked, etc.
 
 :::tip
-PickZ needs at the very least one Bulk location to function properly.
+PickZ needs at the very least one **bulk location** to function properly.
 :::
 
 PickZ adds several example locations during installation. You can rename or delete these and create new locations based on your warehouse layout.
