@@ -4,10 +4,14 @@ sidebar_position: 1
 
 # Installation
 
-## Requirements
+## System Requirements
 
-* PHP ^8.1
-* Composer ^2.2.0
+Before you get started with installing PickZ, ensure that your system meets the following requirements:
+
+- **PHP**: Version 8.2 or higher
+- **Composer**: Version 2.6.0 or higher
+- **Database**: MySQL, PostgreSQL, or any supported database by Laravel
+- **Web Server**: Apache, Nginx, or equivalent
 
 ## Installation steps
 
