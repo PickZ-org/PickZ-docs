@@ -64,7 +64,7 @@ const config = {
                 },
                 items: [
                     {
-                        href: 'https://github.com/sjhand/PickZ',
+                        href: 'https://github.com/PickZ-org/PickZ',
                         className: 'header-github-link fa fa-github',
                         'aria-label': 'GitHub repository',
                         position: 'right',
