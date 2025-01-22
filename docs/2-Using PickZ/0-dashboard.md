@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: Dashboard overview
 ---
-![PickZ dashboard](/img/pickz_preview.jpg)
+![PickZ dashboard](/img/pickz_dashboard.png)
 
 By utilizing the PickZ Dashboard, you can maintain a clear and organized view of their warehouse operations, ensuring efficient management and timely fulfillment of orders. This overview is designed to provide quick insights and easy access to critical information, enabling you to take timely and informed actions.
 Here’s a breakdown of the key components and functionalities of the dashboard:
